@@ -21,7 +21,7 @@ export default function DMAHeroSection() {
     <div className="min-h-screen  bg-gradient-to-br from-[#1a1d3a] via-[#252850] to-[#1a1d3a] text-white">
       {/* Top Header */}
       <header className="bg-[#1a1d3a]  border-b border-gray-700/30">
-        <div className="max-w-8xl  mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex  items-center justify-between h-20">
             {/* Logo */}
             <div className="flex  items-center">
@@ -60,8 +60,8 @@ export default function DMAHeroSection() {
 
       {/* Navigation */}
       <nav className="bg-white  border-b border-gray-700/30">
-        <div className="max-w-8xl mx-auto  sm:px-6 bg-white    lg:px-8">
-          <div className="hidden lg:flex items-center  justify-start gap-13 py-4">
+        <div className="max-w-7xl mx-auto  sm:px-6 bg-white    lg:px-8">
+          <div className="hidden lg:flex items-center  justify-start gap-9 py-4">
             {navItems.map((item, index) => (
               <a
                 key={index}
@@ -101,7 +101,7 @@ export default function DMAHeroSection() {
 
       {/* Hero Section */}
       <div className="relative overflow-hidden">
-        <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Side - Content */}
             <div className="space-y-8 ">
