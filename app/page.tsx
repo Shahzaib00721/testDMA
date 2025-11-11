@@ -25,11 +25,11 @@ export default function DMAHeroSection() {
             {/* Logo */}
             <div className="flex items-center">
               <div className="flex items-center gap-2 sm:gap-3 text-white">
-                <h1 className="text-2xl sm:text-3xl lg:text-5xl font-extrabold tracking-tight">
+                <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight">
                   <span className="text-white">DMA</span>
                 </h1>
-                <div className='h-6 sm:h-9 bg-gray-400 w-0.5'></div>
-                <p className="text-[8px] sm:text-[10px] uppercase leading-3 text-gray-400">
+                <div className='h-9 sm:h-11 bg-gray-400 w-0.5'></div>
+                <p className="text-[10px] sm:text-[12px] uppercase leading-3 text-gray-400">
                   DIGITAL<br />MARKETING<br />AGENCY
                 </p>
               </div> 
@@ -79,7 +79,7 @@ export default function DMAHeroSection() {
                 <a
                   key={index}
                   href="#"
-                  className="block text-sm font-semibold font-sans bg-[#1a1d3a] text-white hover:text-cyan-400 transition-colors py-2"
+                  className="block text-sm font-bold font-sans bg-[#1a1d3a] text-white hover:text-cyan-400 transition-colors py-2"
                 >
                   {item}
                 </a>
