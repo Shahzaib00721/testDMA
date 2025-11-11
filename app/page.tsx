@@ -105,10 +105,10 @@ export default function DMAHeroSection() {
             {/* Left Side - Content */}
             <div className="space-y-4 sm:space-y-6 lg:space-y-8 text-center lg:text-left">
               <div>
-                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-2 sm:mb-4 leading-tight">
+                <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-2 sm:mb-4 leading-tight">
                   We are best in
                 </h2>
-                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-yellow-400 leading-tight">
+                <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-yellow-400 leading-tight">
                   Seo.
                 </h2>
               </div>
