@@ -59,7 +59,7 @@ export default function DMAHeroSection() {
       </header>
 
       {/* Navigation */}
-      <nav className="bg-white  border-b border-gray-700/30">
+      <nav className="bg-white px-5 border-b border-gray-700/30">
         <div className="max-w-7xl mx-auto  sm:px-6 bg-white    lg:px-8">
           <div className="hidden lg:flex items-center  justify-start gap-9 py-4">
             {navItems.map((item, index) => (
