@@ -21,7 +21,7 @@ export default function DMAHeroSection() {
       {/* Top Header */}
       <header className="bg-[#1a1d3a] border-b border-gray-700/30">
         <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 sm:h-20">
+          <div className="flex items-center justify-between h-22 sm:h-25">
             {/* Logo */}
             <div className="flex items-center">
               <div className="flex items-center gap-2 sm:gap-3 text-white">
