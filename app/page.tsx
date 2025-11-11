@@ -58,15 +58,15 @@ export default function DMAHeroSection() {
         </div>
       </header>
 
-      {/* Navigation */}
-      <nav className="bg-white px-5 border-b border-gray-700/30">
-        <div className="max-w-7xl mx-auto  sm:px-6 bg-white    lg:px-8">
-          <div className="hidden lg:flex items-center  justify-start gap-9 py-4">
+     {/* Navigation */}
+      <nav className="bg-white border-b border-gray-700/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="hidden lg:flex items-center justify-around gap-8 py-4">
             {navItems.map((item, index) => (
               <a
                 key={index}
                 href="#"
-                className="text-md font-bold font-sans text-black h-15 flex items-center hover:text-cyan-400 transition-colors whitespace-nowrap"
+                className="text-sm font-semibold text-black font-sans h-15 flex items-center hover:text-cyan-400 transition-colors whitespace-nowrap"
               >
                 {item}
               </a>
