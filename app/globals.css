@@ -12,6 +12,8 @@
   --font-mono: var(--font-geist-mono);
    --font-sans: var(--font-montserrat);  
    --font-sans: 'Montserrat', sans-serif;
+    --font-serif: var(--font-lato);
+   
   
 }
 
