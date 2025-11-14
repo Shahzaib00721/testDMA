@@ -14,7 +14,7 @@ export default function TrustedClientsSection() {
     <div className="bg-white py-8 sm:py-12 lg:py-16  border-b border-gray-200">
       <div className="max-w-8xl mx-auto px-15 ">
     
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-x-16 lg:gap-y-8">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-x-5 lg:gap-y-2">
                    <div className="w-full lg:w-auto text-center lg:text-left flex-shrink-0">
             <h2 className="xl:text-md lg:text-md text-md font-bold mb-4 text-black leading-tight uppercase aos-init aos-animate">
               TRUSTED BY THE BEST CLIENTELE LIST:
@@ -32,7 +32,7 @@ export default function TrustedClientsSection() {
 
            
               <div className="flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
-                <img className='h-10' src="img52.svg" alt="" />
+                <img className='h-10' src="img52.png" alt="" />
               </div>
 
               <div className="flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
@@ -52,7 +52,7 @@ export default function TrustedClientsSection() {
              
               <div className="flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
                 <div className="flex items-center gap-1.5">
-                  <img className='h-10' src="img55.svg" alt="" />
+                  
 
 
                   <div>
