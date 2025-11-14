@@ -23,7 +23,7 @@ export default function PPCAdsSection() {
                   {item}
                 </a>
                 {index === 0 && (
-                  <div className="absolute -bottom-4 w-3  s left-0 right-0 h-0.5 bg-blue-600"></div>
+                  <div className="absolute -bottom-4 w-3  justify-center left-0 right-0 h-0.5 bg-blue-600"></div>
                 )}
               </div>
             ))}
@@ -32,7 +32,7 @@ export default function PPCAdsSection() {
       </nav>
 
      
-      <div className="container mx-auto px-4    ">
+      <div className="container mx-auto px-4   py-12 sm:py-16 lg:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           
          

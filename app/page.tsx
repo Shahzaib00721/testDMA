@@ -27,7 +27,7 @@ export default function DMAHeroSection() {
     <div className="min-h-screen bg-gradient-to-br from-[#1a1d3a] via-[#252850] to-[#1a1d3a] text-white">
    
       <header className="bg-[#1a1d3a] border-b border-gray-700/30">
-        <div className="w-full mx-auto px-4 sm:px-6 lg:px-20">
+        <div className="w-full mx-auto px-4 sm:px-6 lg:px-15">
           <div className="flex items-center justify-between h-22 sm:h-25">
           
             <div className="flex items-center">
@@ -66,7 +66,7 @@ export default function DMAHeroSection() {
 
     
       <nav className="bg-white border-b border-gray-700/30">
-        <div className="w-full mx-auto   lg:px-20">
+        <div className="w-full mx-auto   lg:px-15">
           <div className="hidden lg:flex items-center justify-between gap-2 xl:gap-4 py-4">
             {navItems.map((item, index) => (
               <a
@@ -92,11 +92,11 @@ export default function DMAHeroSection() {
                 </a>
               ))}
               <div className="pt-4 space-y-4 border-t border-gray-700">
-                <a href="tel:574-933-2692" className="flex items-center gap-2 text-white">
+                <a href="tel:574-933-2692" className="flex items-center gap-2  text-white">
                   <Phone size={20} />
                   <span className="font-semibold">574-933-2692</span>
                 </a>
-                <button className="w-full px-6 py-3 border-2 border-yellow-400 text-yellow-400 font-bold uppercase text-sm hover:bg-yellow-400 hover:text-gray-900 transition-all rounded">
+                <button className="  styles_button__ggZ9_ styles_sm__1F4nJ undefined undefined styles_isYellowTransparent__AxQYX false undefined undefined font-bold f-f-DM uppercase undefined">
                   REQUEST A FREE QUOTE
                 </button>
               </div>
@@ -107,7 +107,7 @@ export default function DMAHeroSection() {
 
       
       <div className="relative overflow-hidden">
-        <div className="w-full mx-auto px-4 sm:px-6 lg:px-20 py-8 sm:py-12 lg:py-16 xl:py-20">
+        <div className="w-full mx-auto px-4 sm:px-6 lg:px-15 py-8 sm:py-12 lg:py-16 xl:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
            
             <div className="space-y-4 sm:space-y-6 lg:space-y-8 text-center lg:text-left">
@@ -204,6 +204,7 @@ export default function DMAHeroSection() {
       <Five />
 
 <Footer/>
+
     </div>
 
 

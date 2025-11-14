@@ -11,34 +11,28 @@ export default function AwardsSlider() {
   const awards = [
     {
       badge: 'LEADER',
-      icon: '🏆',
-      image: '/img.svg',
-      iconBg: 'bg-orange-700',
+      image: 'crowd-reviews_120x120.webp',
       title: 'CrowdReviews',
       category: 'CLIENT FEEDBACK',
       location: 'United States',
     },
     {
       badge: 'NOMINATED',
-      icon: 'BIMA',
-      iconBg: 'bg-[#1e2a4a]',
+      image: 'image_44.svg',
       title: 'Digital BIMA Award',
       category: 'DIGITAL DESIGN',
       location: 'United States',
     },
     {
       badge: 'NOMINATED',
-      icon: 'GD',
-      iconBg: 'bg-white',
-      iconText: 'text-black',
+      image: 'img.svg',
       title: 'Graphic Design Award',
       category: 'DIGITAL DESIGN',
       location: 'United States',
     },
     {
       badge: 'WINNER',
-      icon: '⭐',
-      iconBg: 'bg-blue-600',
+      image: 'mask.svg',
       title: 'Excellence Award',
       category: 'DIGITAL MARKETING',
       location: 'United States',
@@ -98,7 +92,7 @@ export default function AwardsSlider() {
   }, [currentIndex, cardsPerView]);
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8 px-5">
+    <div className="min-h-screen bg-gray-50 py-16 px-5">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
@@ -134,9 +128,7 @@ export default function AwardsSlider() {
                 className="flex-shrink-0 w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.333rem)]"
               >
                 <div
-                  className={`group  relative  p-12 shadow-sm hover:shadow-xl overflow-hidden h-full transition-all duration-300 ${
-                    index === 1 ? 'bg-[#1e2a4a]' : 'bg-white'
-                  }`}
+                  className="group relative p-12 shadow-sm hover:shadow-xl overflow-hidden h-full transition-all duration-300 bg-white"
                 >
                   {/* Pattern */}
                   <div className="absolute top-0 right-0 w-48 h-48 opacity-5">
@@ -150,59 +142,31 @@ export default function AwardsSlider() {
                     ></div>
                   </div>
 
-                 
-
                   {/* Hover Overlay */} 
                   <div className="absolute inset-0 bg-[#1e2a4a] transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out" />
 
                   {/* Content */}
                   <div className="relative z-10 text-start">
                     
-                    <div
-                      className={`w-32 h-32 mb-8 ${award.iconBg} rounded-2xl flex items-center justify-center text-5xl font-black ${
-                        award.iconText || 'text-white'
-                      } shadow-lg`}
-                    >
-                      {award.icon}
-                    </div>
+                    <img
+                      src={award.image}
+                      alt={award.title}
+                      className="w-35 h-32 mb-8 object-cover shadow-lg"
+                    />
 
-                    <div
-                      className={`font-bold text-base mt-6 uppercase transition-colors duration-300 ${
-                        index === 1
-                          ? 'text-white'
-                          : 'text-[#1B1D28] group-hover:text-white'
-                      }`}
-                    >
+                    <div className="font-bold text-base mt-6 uppercase transition-colors duration-300 text-[#1B1D28] group-hover:text-white">
                       {award.badge}
                     </div>
 
-                    <h2
-                      className={`text-3xl lg:text-4xl font-bold mb-5 leading-tight transition-colors duration-300 ${
-                        index === 1
-                          ? 'text-white'
-                          : 'text-gray-900 group-hover:text-white'
-                      }`}
-                    >
+                    <h2 className="text-3xl lg:text-4xl font-bold mb-5 leading-tight transition-colors duration-300 text-gray-900 group-hover:text-white">
                       {award.title}
                     </h2>
 
-                    <div
-                      className={`f-f-DM font-bold text-[15px] mb-3 leading-[22.5px] uppercase  ${
-                        index === 1
-                          ? 'text-white'
-                          : 'text-gray-700 group-hover:text-white'
-                      }`}
-                    >
+                    <div className="f-f-DM font-bold text-[15px] mb-3 leading-[22.5px] uppercase transition-colors duration-300 text-gray-700 group-hover:text-white">
                       {award.category}
                     </div>
 
-                    <div
-                      className={` group-hover:text-[#FFD231] f-f-DM pt-5 font-normal text-[15px] leading-[22.5px] transition-all ease-in-out duration-300 text-[#666666]   ${
-                        index === 1
-                          ? 'text-white'
-                          : 'text-gray-500 group-hover:text-white'
-                      }`}
-                    >
+                    <div className="f-f-DM pt-5 font-normal text-[15px] leading-[22.5px] transition-all ease-in-out duration-300 text-[#666666] group-hover:text-white">
                       {award.location}
                     </div>
                   </div>

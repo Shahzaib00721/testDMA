@@ -15,18 +15,18 @@ export default function ServicesSection() {
 
   return (
 
-    <div className="bg-[#1a1f4d] md:bg-white  sm:py-4 lg:py-5">
-      <div className="relative bg-[#1a1f4d] text-white   md:px-10 py-12 sm:py-12 lg:py-20 mx-4 sm:mx-6 lg:mx-8 xl:mx-12  ">
+    <div className="bg-[#1a1f4d] md:bg-white   sm:py-4 lg:py-5">
+      <div className="relative bg-[#1a1f4d] text-white   md:px-5 py-12 sm:py-12 lg:py-20 mx-4 sm:mx-6 lg:mx-3 xl:mx-3  ">
       
      
       
 
-      <div className="container mx-auto    max-w-9xl">
+      <div className="container mx-auto  md:px-4  max-w-8xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           
           
           <div className="space-y-6">
-            <h2 className="lg:text-6xl text-[40px] leading-[48px] lg:leading-[83px] font-black   undefined  text-white mb-6">
+            <h2 className="lg:text-6xl text-[40px] leading-[70px] lg:leading-[83px] font-black f-f-Lato  undefined  text-white mb-6">
               Services we can help you with.
             </h2>
             
@@ -43,7 +43,7 @@ export default function ServicesSection() {
             
            
             <div className="flex justify-start lg:justify-start">
-              <button className="bg-[#f5a623] hover:bg-[#e69510] text-[#1a1f4d] font-bold text-sm sm:text-base px-8 py-3  transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <button className="bg-[#f3ae24] hover:bg-[#e69510] text-[#1a1f4d] font-bold text-sm sm:text-base px-8 py-5 mb-3   transition-all duration-300 transform hover:scale-105 shadow-lg">
                 KNOW MORE
               </button>
             </div>
@@ -95,8 +95,8 @@ export default function ServicesSection() {
           </div>
 
         </div>
-      </div>
         <h1 className='text-white font-bold text-7xl mt-3'>9</h1>
+      </div>
         </div>
     </div>
   );
